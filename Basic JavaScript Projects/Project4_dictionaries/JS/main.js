@@ -6,7 +6,7 @@ function my_Dictionary(){                                       //using key valu
         Age:1,
         Sound:"Tweet",
     };
-    delete Animal.Breed;
+    delete Animal.Breed;                                        //delete statement that removes the key before its valued is displayed
     document.getElementById("Dictionary").innerHTML = Animal.Breed;
 }
 
